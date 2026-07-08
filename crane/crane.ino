@@ -12,9 +12,23 @@ void setup() {
     stepper2.setSpeed(400);
 }
 void loop() {
-    movestring = Serial.readString();
-    move = movestring.toInt();
-    stepper2.step(move);
+    if (Serial.available()) {
+        movestring = Serial.readString();
+        movestring.trim();
+        
+        if (movestring.length() > 1) {
+            char motor = movestring.charAt(0);
+            String stepsStr = movestring.substring(1);
+            move = stepsStr.toInt();
+            
+            if (motor == 'a') {
+                stepper1.step(move);
+            } else if (motor == 'b') {
+                stepper2.step(move);
+            } else {
+                Serial.println("Invalid motor. Use 'a' or 'b' followed by steps.");
+            }
+        }
+    }
     movestring = "";
-
 }
