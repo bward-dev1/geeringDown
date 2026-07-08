@@ -14,10 +14,6 @@ void setup() {
 void loop() {
     movestring = Serial.readString();
     move = movestring.toInt();
-    //if (move == 0) {
-    //   movestring = Serial.readString();
-    //    move = movestring.toInt(); 
-    //}
     stepper2.step(move);
     movestring = "";
 
