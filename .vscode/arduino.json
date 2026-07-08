@@ -1,0 +1,15 @@
+{
+  "board": "arduino:avr:uno",
+  "configuration": "cpu=atmega328p",
+  "port": "",
+  "sketch": "npn7fo.ino",
+  "monitorPortSettings": {
+    "port": "",
+    "baudRate": 115200,
+    "lineEnding": "\r\n",
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": "one"
+  },
+  "optimize_for_debug": false
+}
