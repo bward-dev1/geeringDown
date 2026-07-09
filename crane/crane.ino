@@ -12,8 +12,8 @@ Servo scoopServo;
 int val = 0;
 void setup() {
     Serial.begin(9600);
-    stepper1.setSpeed(400);
-    baseStepper.setSpeed(400);
+    stepper1.setSpeed(200);
+    baseStepper.setSpeed(300);
     scoopServo.attach(6);
 }
 void loop() {
@@ -31,12 +31,12 @@ void loop() {
                 stepper1.step(move);
             } else if (motor == 'b') {
                 baseStepper.step(move);
-            } 
-            else if (motor == 's') {
+            } else if (motor == 's') {
                 scoopServo.write(move);
+                //180 = fully open, 0 = fully closed
             }
             else {
-                Serial.println("Invalid motor. Use 'a', 'b', or 'c' followed by steps.");
+                Serial.println("Invalid motor. Use 'a', 'b', or 's' followed by steps.");
             }
         }
     }
