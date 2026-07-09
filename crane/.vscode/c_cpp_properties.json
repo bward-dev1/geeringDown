@@ -5,16 +5,17 @@
       "includePath": [
         "/home/sam/Documents/Arduino/libraries/**",
         "/var/home/sam/Documents/GitHub/geeringDown/crane/**",
-        "/var/home/sam/.arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino/**",
-        "/var/home/sam/.arduino15/packages/arduino/hardware/avr/1.8.8/variants/standard/**",
-        "/home/sam/Documents/Arduino/libraries/Stepper/src/**"
+        "/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/cores/arduino/**",
+        "/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/variants/standard/**",
+        "/home/sam/.arduino15/internal/Servo_1.3.0_497671ba0520c8c4/Servo/src/**",
+        "/home/sam/.arduino15/internal/Stepper_1.1.3_1d173e13857fc275/Stepper/src/**"
       ],
       "forcedInclude": [
-        "/var/home/sam/.arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino/Arduino.h"
+        "/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/cores/arduino/Arduino.h"
       ],
-      "compilerPath": "/var/home/sam/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+      "compilerPath": "/home/sam/.arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
       "compilerArgs": [
-        "/var/home/sam/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "/home/sam/.arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
         "-c",
         "-g",
         "-Os",
@@ -33,12 +34,13 @@
         "-DARDUINO=10607",
         "-DARDUINO_AVR_UNO",
         "-DARDUINO_ARCH_AVR",
-        "-I/var/home/sam/.arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino",
-        "-I/var/home/sam/.arduino15/packages/arduino/hardware/avr/1.8.8/variants/standard",
-        "-I/home/sam/Documents/Arduino/libraries/Stepper/src",
-        "/var/home/sam/Documents/GitHub/geeringDown/crane/build/sketch/crane.ino.cpp",
+        "-I/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/cores/arduino",
+        "-I/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/variants/standard",
+        "-I/home/sam/.arduino15/internal/Servo_1.3.0_497671ba0520c8c4/Servo/src",
+        "-I/home/sam/.arduino15/internal/Stepper_1.1.3_1d173e13857fc275/Stepper/src",
+        "/home/sam/Documents/GitHub/geeringDown/crane/build/build_crane/sketch/crane.ino.cpp",
         "-o",
-        "/var/home/sam/Documents/GitHub/geeringDown/crane/build/sketch/crane.ino.cpp.o"
+        "/home/sam/Documents/GitHub/geeringDown/crane/build/build_crane/sketch/crane.ino.cpp.o"
       ],
       "defines": [
         "F_CPU=16000000L",

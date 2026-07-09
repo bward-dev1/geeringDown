@@ -7,12 +7,12 @@
   "useProgrammer": false,
   "optimize_for_debug": false,
   "configurationRequired": false,
-  "compile_profile": "",
+  "compile_profile": "crane",
   "monitorPortSettings": {
     "settings": {
-      "port": "/dev/ttyACM0",
-      "baudRate": 115200,
-      "lineEnding": "\r\n",
+      "port": "",
+      "baudRate": 9600,
+      "lineEnding": "none",
       "dataBits": 8,
       "parity": "none",
       "stopBits": "one"
