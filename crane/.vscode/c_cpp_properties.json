@@ -7,8 +7,10 @@
         "/var/home/sam/Documents/GitHub/geeringDown/crane/**",
         "/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/cores/arduino/**",
         "/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/variants/standard/**",
+        "/home/sam/.arduino15/internal/LiquidCrystal_I2C_2.0.0_5b47e66a35aa9468/LiquidCrystal_I2C/**",
         "/home/sam/.arduino15/internal/Servo_1.3.0_497671ba0520c8c4/Servo/src/**",
-        "/home/sam/.arduino15/internal/Stepper_1.1.3_1d173e13857fc275/Stepper/src/**"
+        "/home/sam/.arduino15/internal/Stepper_1.1.3_1d173e13857fc275/Stepper/src/**",
+        "/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/libraries/Wire/src/**"
       ],
       "forcedInclude": [
         "/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/cores/arduino/Arduino.h"
@@ -36,8 +38,10 @@
         "-DARDUINO_ARCH_AVR",
         "-I/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/cores/arduino",
         "-I/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/variants/standard",
+        "-I/home/sam/.arduino15/internal/LiquidCrystal_I2C_2.0.0_5b47e66a35aa9468/LiquidCrystal_I2C",
         "-I/home/sam/.arduino15/internal/Servo_1.3.0_497671ba0520c8c4/Servo/src",
         "-I/home/sam/.arduino15/internal/Stepper_1.1.3_1d173e13857fc275/Stepper/src",
+        "-I/home/sam/.arduino15/internal/arduino_avr_1.8.8_a345a73f10f468fe/libraries/Wire/src",
         "/var/home/sam/Documents/GitHub/geeringDown/crane/build/build_crane/sketch/crane.ino.cpp",
         "-o",
         "/var/home/sam/Documents/GitHub/geeringDown/crane/build/build_crane/sketch/crane.ino.cpp.o"
