@@ -31,8 +31,10 @@ void loop() {
                 stepper1.step(move);
             } else if (motor == 'b') {
                 baseStepper.step(move);
+                Serial.println("Base stepper moved " + String(move) + " steps.");
             } else if (motor == 's') {
                 scoopServo.write(move);
+                Serial.println("Scoop servo moved to " + String(move));
                 //180 = fully open, 0 = fully closed
             }
             else {
